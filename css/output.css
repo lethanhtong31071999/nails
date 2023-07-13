@@ -1536,6 +1536,10 @@ html {
   width: 13rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1878,6 +1882,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:order-none {
+    order: 0;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1904,6 +1912,10 @@ body {
 
   .md\:w-\[200px\] {
     width: 200px;
+  }
+
+  .md\:basis-0 {
+    flex-basis: 0px;
   }
 
   .md\:flex-row {
