@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Santoshi, Arial, Helvetica, sans-serif;
+  @apply w-screen min-h-screen overflow-x-hidden;
+}
+
+.icon {
+  @apply w-5 h-5;
+}
+
+.btn {
+  @apply font-normal text-sm rounded-none;
+}
+
+.btn-primary {
+  @apply text-white bg-primary hover:text-dark hover:bg-secondary;
+}
+
+.btn-secondary {
+  @apply text-dark bg-secondary hover:text-white hover:bg-primary;
+}
