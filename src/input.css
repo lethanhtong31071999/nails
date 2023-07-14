@@ -7,6 +7,10 @@ body {
   @apply w-screen min-h-screen overflow-x-hidden;
 }
 
+img {
+  @apply max-w-full;
+}
+
 .icon {
   @apply w-5 h-5;
 }
