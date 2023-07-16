@@ -4,12 +4,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      screens: {
-        sm: "600px",
-        md: "728px",
-        lg: "984px",
-        xl: "1240px",
-      },
     },
     extend: {
       colors: {
@@ -23,7 +17,11 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("daisyui"),
+    require("prettier-plugin-tailwindcss"),
+  ],
   daisyui: {
     prefix: "",
     log: false,

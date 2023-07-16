@@ -15,26 +15,41 @@ img {
   @apply w-5 h-5;
 }
 
+/* Button */
 .btn {
   @apply font-normal text-sm rounded-none px-9 py-3;
 }
-
 .btn-primary {
   @apply text-white bg-primary hover:text-dark hover:bg-secondary;
 }
-
 .btn-secondary {
   @apply text-dark bg-secondary hover:text-white hover:bg-primary;
 }
 
+/* Card */
 .card {
-  @apply w-full md:w-1/3 p-5 overflow-hidden;
+  @apply w-full p-5 overflow-hidden;
 }
-
 .card-img {
   @apply overflow-hidden mb-5;
 }
-
 .card-img > img {
   @apply w-full  hover:scale-105 hover:opacity-90 hover:cursor-pointer transition-transform;
+}
+.card-content > span {
+  @apply uppercase opacity-75;
+}
+.card-content > h4 {
+  @apply text-lg;
+}
+.card-content > p {
+  @apply uppercase text-sm;
+}
+.card-content > p > span {
+  @apply line-through opacity-70 mr-2 inline-block;
+}
+
+/* Section separator */
+.home-separator {
+  @apply px-4 md:px-0 py-16 md:py-20;
 }
